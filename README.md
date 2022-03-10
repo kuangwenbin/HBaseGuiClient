@@ -8,9 +8,11 @@ Ref : [HBaseGuiClient](https://github.com/tzolkincz/HBaseGuiClient)
 1、修改了部分样式
 
   样式中表格查询结果部分可以自适应高度。帮助提示可以关闭。
+  
 2、修改了可以连接hbase 2.1.x版本。
 
   修改了pom中的hbase-client的jar包版本。
+  
 3、并且可以查询命名空间中的表信息。
 
   本身项目中使用到命名空间。而原先的代码或者jar包版本不适用。并随之更改。
